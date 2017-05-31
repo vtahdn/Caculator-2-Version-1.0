@@ -12,6 +12,8 @@
 		DEF6F0DA1EDE8E6D00930F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF6F0D81EDE8E6D00930F90 /* Main.storyboard */; };
 		DEF6F0DC1EDE8E6D00930F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF6F0DB1EDE8E6D00930F90 /* Assets.xcassets */; };
 		DEF6F0DF1EDE8E6D00930F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF6F0DD1EDE8E6D00930F90 /* LaunchScreen.storyboard */; };
+		DEF6F0E71EDE900D00930F90 /* OperatorsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6F0E61EDE900D00930F90 /* OperatorsButton.swift */; };
+		DEF6F0E91EDE95A400930F90 /* GardiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6F0E81EDE95A400930F90 /* GardiantView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DEF6F0DB1EDE8E6D00930F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEF6F0DE1EDE8E6D00930F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEF6F0E01EDE8E6D00930F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF6F0E61EDE900D00930F90 /* OperatorsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorsButton.swift; sourceTree = "<group>"; };
+		DEF6F0E81EDE95A400930F90 /* GardiantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardiantView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				DEF6F0D41EDE8E6D00930F90 /* AppDelegate.swift */,
 				DEF6F0D61EDE8E6D00930F90 /* ViewController.swift */,
+				DEF6F0E61EDE900D00930F90 /* OperatorsButton.swift */,
+				DEF6F0E81EDE95A400930F90 /* GardiantView.swift */,
 				DEF6F0D81EDE8E6D00930F90 /* Main.storyboard */,
 				DEF6F0DB1EDE8E6D00930F90 /* Assets.xcassets */,
 				DEF6F0DD1EDE8E6D00930F90 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF6F0E71EDE900D00930F90 /* OperatorsButton.swift in Sources */,
 				DEF6F0D71EDE8E6D00930F90 /* ViewController.swift in Sources */,
+				DEF6F0E91EDE95A400930F90 /* GardiantView.swift in Sources */,
 				DEF6F0D51EDE8E6D00930F90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				DEF6F0E51EDE8E6D00930F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
